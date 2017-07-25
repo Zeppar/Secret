@@ -1,0 +1,70 @@
+<linker>
+	<assembly fullname="Assembly-CSharp">
+		<type fullname="MissionItem">
+			<method name="clickSelf"/>
+		</type>
+		<type fullname="GameUIController">
+			<method name="BackButtonOnClick"/>
+			<method name="SettingButtonOnClick"/>
+		</type>
+		<type fullname="SelectMusicController">
+			<method name="ConfirmButtonOnClick"/>
+			<method name="CloseButtonOnClick"/>
+		</type>
+		<type fullname="ChallengeController">
+			<method name="CloseButtonOnClick"/>
+			<method name="goButtonOnClick"/>
+		</type>
+		<type fullname="StartContoller">
+			<method name="ChallengeButtonOnClick"/>
+			<method name="CustonButtonOnClick"/>
+			<method name="MissionButtonOnClick"/>
+			<method name="FreeButtonOnClick"/>
+			<method name="SettingButtonOnClick"/>
+		</type>
+		<type fullname="SimulatePanel">
+			<method name="resetButtonOnClick"/>
+			<method name="confirmButtonOnClick"/>
+			<method name="goButtonOnClick"/>
+			<method name="closeButtonOnClick"/>
+		</type>
+		<type fullname="FreeWinPanel">
+			<method name="BackButtonOnClick"/>
+			<method name="RestartButtonOnClick"/>
+		</type>
+		<type fullname="MissionController">
+			<method name="CloseButtonOnClick"/>
+		</type>
+		<type fullname="CustomDiffPanel">
+			<method name="closeButtonOnClick"/>
+			<method name="goButtonOnClick"/>
+		</type>
+		<type fullname="ChallengeWinPanel">
+			<method name="confirmButtonOnClick"/>
+		</type>
+		<type fullname="CustomController">
+			<method name="LLinkModeOnClick"/>
+			<method name="CloseButtonOnClick"/>
+			<method name="CustomLinkModeOnClick"/>
+			<method name="JLinkModeOnClick"/>
+		</type>
+		<type fullname="SettingController">
+			<method name="OnEffectValueChange"/>
+			<method name="CloseButtonOnClick"/>
+			<method name="SelectMusicButtonOnClick"/>
+			<method name="OnMusicValueChange"/>
+		</type>
+		<type fullname="FreeController">
+			<method name="PlayButtonOnClick"/>
+			<method name="CloseButtonOnClick"/>
+		</type>
+		<type fullname="CustomWinPanel">
+			<method name="RestartButtonOnClick"/>
+			<method name="BackButtonOnClick"/>
+		</type>
+		<type fullname="MissionWinPanel">
+			<method name="NextButtonOnClick"/>
+			<method name="BackButtonOnClick"/>
+		</type>
+	</assembly>
+</linker>
